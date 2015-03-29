@@ -9,13 +9,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Locale;
-import java.util.Optional;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicLong;
 import java.text.SimpleDateFormat;
 
-
-import static java.util.stream.Collectors.toList;
 
 @Service
 final class MongoModeratorService implements ModeratorService{
